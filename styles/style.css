@@ -335,7 +335,7 @@ button {
     .menu img {
         width: 40px;
         height: 40px;
-        margin-left: 40%;
+        margin: 2% 0% 0% 40%;
     }
 
     .logo {
@@ -472,6 +472,10 @@ button {
 }
 
 @media (max-width: 768px) {
+    .banner {
+        height: 340px;
+    }
+
     .socialMedia {
         width: 95%;
     }
@@ -480,22 +484,59 @@ button {
         margin-left: 2%;
     }
 
+    .credits h4 {
+        font-size: 1.5rem;
+    }
+
     .credits p {
         font-size: 0.8rem;
     }
 }
 
 @media (max-width: 740px) {
+    .banner  {
+        height: 330px;
+    }
+
+    button a {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 718px) {
+    .banner  {
+        height: 640px;
+        background-size: cover;
+        background-position: 100%;
+    }
+
+    .slogan h2 {
+        margin-top: 35%;
+        font-size: 5rem;
+    }
+
+    .slogan h3 {
+        font-size: 2rem;
+    }
+
     button a {
         font-size: 1.3rem;
     }
 }
 
 @media (max-width: 667px) {
-    .banner  {
-        height: 400px;
-        background-size: 200%;
-        background-position: 85%;
+
+    .slogan h2 {
+        margin-top: 40%;
+        font-size: 4.7rem;
+    }
+
+    .slogan h3 {
+        font-size: 1.7rem;
+    }
+
+    .credits h4 {
+        font-size: 1.4rem;
     }
 
     button a {
@@ -504,16 +545,45 @@ button {
 }
 
 @media (max-width: 600px) {
+
+    .slogan h2 {
+        margin-top: 48%;
+        font-size: 4.5rem;
+    }
+
+    .slogan h3 {
+        font-size: 1.5rem;
+    }
+
+    .credits h4 {
+        font-size: 1.3rem;
+    }
+
     .credits p {
         font-size: 0.7rem;
     }
 }
 
 @media (max-width: 568px) {
-    .banner  {
-        height: 350px;
-        background-size: 200%;
-        background-position: 95%;
+    .slogan h2 {
+        margin-top: 50%;
+        font-size: 4.3rem;
+    }
+
+    .slogan h3 {
+        font-size: 1.3rem;
+    }
+
+    .slogan h2 {
+        font-size: 4.7rem;
+    }
+
+    .slogan h3 {
+        font-size: 1.7rem;
+    }
+
+    .credits h4 {
+        font-size: 1.2rem;
     }
 
     button a {
@@ -527,8 +597,16 @@ button {
     }
 
     .banner  {
-        height: 250px;
-        background-position: center;
+        background-position: 95%;
+    }
+
+    .slogan h2 {
+        margin-top: 60%;
+        font-size: 4.1rem;
+    }
+
+    .slogan h3 {
+        font-size: 1.7rem;
     }
 
     .socialMedia img {
@@ -546,12 +624,34 @@ button {
 }
 
 @media (max-width: 500px) {
+    .slogan h2 {
+        margin-top: 65%;
+        font-size: 4rem;
+    }
+
+    .slogan h3 {
+        font-size: 1.7rem;
+    }
+
     button a {
         font-size: 0.8rem;
     }
 }
 
 @media (max-width: 455px) {
+    .banner  {
+        background-position: 90%;
+    }
+
+    .slogan h2 {
+        margin-top: 80%;
+        font-size: 3.5em;
+    }
+
+    .slogan h3 {
+        font-size: 1.5rem;
+    }
+
     .credits p {
         font-size: 0.5rem;
     }
@@ -560,14 +660,11 @@ button {
 @media (max-width: 414px) {
     
     .banner  {
-        height: 350px;
-        background-size: 260%;
-        background-position: 95%;
+        background-position: 85%;
     }
 
     .slogan h2 {
-        margin-top: 30%;
-        width: 40%;
+        margin-top: 90%;
     }
 
     button a {
@@ -584,6 +681,15 @@ button {
 }
 
 @media (max-width: 390px) {
+    .banner  {
+        background-position: 83%;
+    }
+
+    .slogan h2 {
+        margin-top: 100%;
+        font-size: 3.2rem;
+    }
+
     button a {
         font-size: 0.6rem;
     }
@@ -598,12 +704,18 @@ button {
 }
 
 @media (max-width: 320px) {
-    .menu img {
-        margin-left: 30%;
+
+    .slogan h2 {
+        margin-top: 145%;
+        font-size: 2.5rem;
     }
 
-    .banner  {
-        background-size: 280%;
+    .slogan h3 {
+        font-size: 1.1rem;
+    }
+
+    .menu img {
+        margin-left: 30%;
     }
 
     .socialMedia img {
