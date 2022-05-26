@@ -657,7 +657,7 @@ button {
     }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 420px) {
     
     .banner  {
         background-position: 85%;
@@ -686,7 +686,7 @@ button {
     }
 
     .slogan h2 {
-        margin-top: 100%;
+        margin-top: 105%;
         font-size: 3.2rem;
     }
 
@@ -703,11 +703,16 @@ button {
     }
 }
 
-@media (max-width: 320px) {
-
+@media (max-width: 355px) {
     .slogan h2 {
-        margin-top: 145%;
-        font-size: 2.5rem;
+        margin-top: 115%;
+    }
+}
+
+@media (max-width: 320px) {
+    .slogan h2 {
+        font-size: 3rem;
+        margin-top: 135%;
     }
 
     .slogan h3 {
@@ -721,6 +726,10 @@ button {
     .socialMedia img {
         width: 65%;
         height: 65%;
+    }
+
+    .credits p {
+        font-size: 0.3rem;
     }
 }
 
@@ -753,10 +762,6 @@ button {
     .credits h4 {
         font-size: 1rem;
     }
-    
-    .credits p {
-        font-size: 0.3rem;
-    }
 }
 
 @media (max-width: 260px) {
@@ -766,9 +771,5 @@ button {
     
         .credits h4 {
             font-size: 1rem;
-        }
-        
-        .credits p {
-            font-size: 0.3rem;
         }
 }
